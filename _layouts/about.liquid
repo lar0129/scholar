@@ -47,9 +47,7 @@ layout: default
       {% else %}
         {% assign announcements_heading = 'news' %}
       {% endif %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">{{ announcements_heading }}</a>
-      </h2>
+      <h2>{{ announcements_heading }}</h2>
       {% include news.liquid limit=true %}
     {% endif %}
 

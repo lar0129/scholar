@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**First Prize**, National High School Mathematics League (全国高中数学联赛).
+**First Prize**, National High School Mathematics League.
