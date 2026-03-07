@@ -384,23 +384,26 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/scholar/books/the_godfather/";
-            },},{id: "news-started-b-s-program-at-the-school-of-software-nanjing-university",
-          title: 'Started B.S. program at the School of Software, Nanjing University.',
+            },},{id: "news-first-prize-national-high-school-mathematics-league-全国高中数学联赛",
+          title: 'First Prize, National High School Mathematics League (全国高中数学联赛).',
+          description: "",
+          section: "News",},{id: "news-first-prize-national-high-school-mathematics-league-全国高中数学联赛",
+          title: 'First Prize, National High School Mathematics League (全国高中数学联赛).',
+          description: "",
+          section: "News",},{id: "news-achieved-full-score-in-mathematics-in-the-national-college-entrance-exam-gaokao",
+          title: 'Achieved full score in Mathematics in the National College Entrance Exam (Gaokao).',
           description: "",
           section: "News",},{id: "news-awarded-the-nju-people-s-scholarship-top-5",
           title: 'Awarded the NJU People’s Scholarship (Top 5%).',
           description: "",
-          section: "News",},{id: "news-awarded-the-nju-ruli-scholarship-and-recognized-as-an-nju-outstanding-student",
-          title: 'Awarded the NJU Ruli Scholarship and recognized as an NJU Outstanding Student.',
+          section: "News",},{id: "news-awarded-the-nju-ruli-scholarship",
+          title: 'Awarded the NJU Ruli Scholarship.',
+          description: "",
+          section: "News",},{id: "news-recognized-as-an-nju-outstanding-student",
+          title: 'Recognized as an NJU Outstanding Student.',
           description: "",
           section: "News",},{id: "news-awarded-the-nju-people-s-scholarship-top-5",
           title: 'Awarded the NJU People’s Scholarship (Top 5%).',
-          description: "",
-          section: "News",},{id: "news-joined-huawei-terminal-cloud-ad-trading-platform-as-an-intern-jul-2024-oct-2024",
-          title: 'Joined Huawei Terminal Cloud, Ad Trading Platform as an intern (Jul 2024 –...',
-          description: "",
-          section: "News",},{id: "news-started-m-s-program-at-the-school-of-software-shanghai-jiao-tong-university-advised-by-prof-zhaoguo-wang",
-          title: 'Started M.S. program at the School of Software, Shanghai Jiao Tong University, advised...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -448,11 +451,18 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/scholar/projects/9_project/";
             },},{
+        id: 'social-blogger',
+        title: 'Blogger',
+        section: 'Socials',
+        handler: () => {
+          window.open("lianganran.top", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%61%61%72%6F%6E.%6C%69%61%6E%67@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:%61%61%72%6F%6E.%61%6E%72%61%6E%6C%69%61%6E%67@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-github',
