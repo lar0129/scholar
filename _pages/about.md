@@ -6,7 +6,7 @@ subtitle: M.S. Student @ <a href='https://ipads.se.sjtu.edu.cn/'>IPADS</a>, Shan
 
 profile:
   align: right
-  image: anran_liang.jpg
+  image: DSCF4427.jpg
   image_circular: false # crops the image to make it circular
 
 selected_papers: false

@@ -4,6 +4,7 @@ permalink: /blog/
 title: blog
 nav: true
 nav_order: 1
+external_url: https://lianganran.top
 pagination:
   enabled: true
   collection: posts
