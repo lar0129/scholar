@@ -40,10 +40,15 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <!-- News -->
+    <!-- News / Awards -->
     {% if page.announcements and page.announcements.enabled %}
+      {% if page.announcements.title %}
+        {% assign announcements_heading = page.announcements.title %}
+      {% else %}
+        {% assign announcements_heading = 'news' %}
+      {% endif %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">{{ announcements_heading }}</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2022-11-01
+date: 2021-11-01
 inline: true
 related_posts: false
 ---
 
-Awarded the **NJU Ruli Scholarship** and recognized as an **NJU Outstanding Student**.
+Awarded the **NJU People's Scholarship** (Top 5%).
