@@ -140,11 +140,11 @@ ninja.data = [{
           window.open("", "_blank");
         },
       },{
-        id: 'social-douban',
-        title: 'Douban',
+        id: 'social-douban_url',
+        title: 'Douban_url',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.douban.com/people/a1538618464/?_i=2956427YIqFMIy", "_blank");
+          window.open("", "_blank");
         },
       },{
       id: 'light-theme',
