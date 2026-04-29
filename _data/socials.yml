@@ -51,4 +51,7 @@ github_username: lar0129 # your GitHub user name
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 bilibili_id: 4832275 # your Bilibili user id
-douban_url: https://www.douban.com/people/a1538618464/?_i=2956427YIqFMIy
+douban:
+  logo: assets/img/douban.webp
+  title: Douban
+  url: https://www.douban.com/people/a1538618464/?_i=2956427YIqFMIy

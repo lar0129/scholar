@@ -100,8 +100,8 @@
       <a href="https://www.zotero.org/{{ social[1] }}" title="Zotero"><i class="ai ai-zotero"></i></a>
     {% when 'bilibili_id' %}
       <a href="https://space.bilibili.com/{{ social[1] }}" title="Bilibili"><i class="fa-brands fa-bilibili"></i></a>
-    {% when 'douban_url' %}
-      <a href="{{ social[1] }}" title="Douban"><i class="ti ti-brand-douban"></i></a>
+    {% when 'douban' %}
+      <a href="{{ social[1].url }}" title="{{ social[1].title | default: 'Douban' }}"><i class="logo-icon" style="--logo-url: url('{{ social[1].logo | relative_url }}')"></i></a>
     {% else %}
       <a href="{{ social[1].url }}" title="{{ social[1].title }}">
         {% assign file_ext = social[1].logo | split: '.' | last %}

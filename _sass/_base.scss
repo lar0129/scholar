@@ -426,11 +426,26 @@ ul.task-list input[type="checkbox"] {
         transition-property: all 0.2s ease-in-out;
       }
 
+      i.logo-icon {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        vertical-align: -0.125em;
+        background-color: var(--global-text-color);
+        mask: var(--logo-url) center / contain no-repeat;
+        -webkit-mask: var(--logo-url) center / contain no-repeat;
+        transition: background-color 0.2s ease-in-out;
+      }
+
       &:hover {
         text-decoration: none;
 
         i::before {
           color: var(--global-theme-color);
+        }
+
+        i.logo-icon {
+          background-color: var(--global-theme-color);
         }
       }
     }
