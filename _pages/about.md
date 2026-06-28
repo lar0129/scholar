@@ -22,7 +22,7 @@ latest_posts:
   enabled: false
 ---
 
-I am Anran Liang (梁安然), a first-year M.S. student at the [Institute of Parallel and Distributed Systems (IPADS)](https://ipads.se.sjtu.edu.cn/), Shanghai Jiao Tong University. I am advised by Prof. [Zhaoguo Wang](https://ipads.se.sjtu.edu.cn/pub/members/zhaoguo_wang), working on on-device data management and LLM inference.
+I am Anran Liang (梁安然), a first-year M.S. student at the [Institute of Parallel and Distributed Systems (IPADS)](https://ipads.se.sjtu.edu.cn/), Shanghai Jiao Tong University. I am advised by Prof. [Zhaoguo Wang](https://ipads.se.sjtu.edu.cn/pub/members/zhaoguo_wang), working on on-device data management.
 
 [Chinese Website](https://ipads.se.sjtu.edu.cn/zh/pub/members/anran_liang/);
 [Personal Blog](https://lianganran.top)
